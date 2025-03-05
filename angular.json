@@ -45,7 +45,14 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "extractLicenses": false, 
+              "serviceWorker": false, 
+              "prerender": false, 
+              "localize": false, 
+              "sourceMap": false, 
+              "optimization": true,
+              "outputPath": "dist/mi-app-angular"
             },
             "development": {
               "optimization": false,
